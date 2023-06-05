@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="1173.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="630.0" layoutY="443.0" prefHeight="236.0" prefWidth="200.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="19.0" layoutY="144.0" text=" Flaky, chocolaty">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="195.0" text="₱200.00" textFill="#ff9a3b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="76.0" layoutY="197.0" text="/pc" />
+                  <AnchorPane layoutX="16.0" prefHeight="127.0" prefWidth="168.0" styleClass="white-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="168.0" layoutX="19.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/download%20(2).jpeg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="22.0" layoutY="171.0" text="Goodness!">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="154.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="2.0" prefHeight="687.0" prefWidth="86.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Button alignment="CENTER" layoutX="19.0" layoutY="139.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="48.0" styleClass="nav-btn" stylesheets="@markDesign.css">
+                     <graphic>
+                        <FontAwesomeIconView fill="#a6a9ab" glyphName="HOME" size="1.5em" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="210.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="48.0" styleClass="nav-btn" stylesheets="@markDesign.css">
+                     <graphic>
+                        <FontAwesomeIconView fill="#a6a9ab" glyphName="WINDOWS" size="1.5em" text="" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="280.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="48.0" styleClass="nav-btn" stylesheets="@markDesign.css">
+                     <graphic>
+                        <FontAwesomeIconView fill="#a6a9ab" glyphName="COG" size="1.5em" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="351.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="48.0" styleClass="nav-btn" stylesheets="@markDesign.css">
+                     <graphic>
+                        <FontAwesomeIconView fill="#a6a9ab" glyphName="CIRCLE" size="1.5em" />
+                     </graphic>
+                  </Button>
+                  <AnchorPane layoutY="14.0" prefHeight="94.0" prefWidth="88.0">
+                     <children>
+                        <ImageView fitHeight="83.0" fitWidth="75.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/bread.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="19.0" layoutY="632.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="48.0" styleClass="nav-btn" stylesheets="@markDesign.css">
+                     <graphic>
+                        <FontAwesomeIconView fill="#a6a9ab" glyphName="SIGN_OUT" size="1.5em" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="586.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="48.0" styleClass="nav-btn" stylesheets="@markDesign.css">
+                     <graphic>
+                        <FontAwesomeIconView fill="#a6a9ab" glyphName="COG" size="1.5em" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Label layoutX="132.0" layoutY="35.0" text="Welcom, Mark" textFill="#070707">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="877.0" layoutY="-2.0" prefHeight="689.0" prefWidth="296.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <AnchorPane layoutY="96.0" prefHeight="108.0" prefWidth="296.0">
+                     <children>
+                        <Label layoutX="127.0" layoutY="82.0" text="₱250.00" textFill="#ff9a3b">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <AnchorPane layoutX="6.0" layoutY="13.0" prefHeight="69.0" prefWidth="96.0" stylesheets="@markDesign.css">
+                           <children>
+                              <ImageView fitHeight="83.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/351679194_190863630207856_898116513197741263_n.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </AnchorPane>
+                        <Label layoutX="126.0" layoutY="17.0" prefHeight="27.0" prefWidth="122.0" text="Berry Whipped">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="126.0" layoutY="38.0" prefHeight="27.0" prefWidth="112.0" text=" Cream Croissant">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="261.0" layoutY="85.0" text="X1" />
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="14.0" layoutY="14.0" text="Current Order">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="#1b1b1b" glyphName="COG" layoutX="256.0" layoutY="30.0" size="1.5em" />
+                  <AnchorPane layoutY="214.0" prefHeight="108.0" prefWidth="296.0">
+                     <children>
+                        <Label layoutX="123.0" layoutY="82.0" text="₱200.00" textFill="#ff9a3b">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <AnchorPane layoutX="6.0" layoutY="13.0" prefHeight="86.0" prefWidth="79.0" stylesheets="@markDesign.css">
+                           <children>
+                              <ImageView fitHeight="75.0" fitWidth="83.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/351097128_1645398305887768_6255207392029918102_n.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </AnchorPane>
+                        <Label layoutX="122.0" layoutY="17.0" prefHeight="27.0" prefWidth="118.0" text="Almond Brown ">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="38.0" prefHeight="27.0" prefWidth="112.0" text="Sugar Croissant">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="261.0" layoutY="85.0" text="X1" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutY="335.0" prefHeight="108.0" prefWidth="296.0">
+                     <children>
+                        <Label layoutX="125.0" layoutY="82.0" text="₱200.00" textFill="#ff9a3b">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <AnchorPane layoutX="6.0" layoutY="13.0" prefHeight="86.0" prefWidth="88.0" stylesheets="@markDesign.css">
+                           <children>
+                              <ImageView fitHeight="83.0" fitWidth="88.0" layoutX="5.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/download%20(2).jpeg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </AnchorPane>
+                        <Label layoutX="124.0" layoutY="17.0" prefHeight="27.0" prefWidth="112.0" text=" Flaky, chocolaty">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="261.0" layoutY="85.0" text="X1" />
+                        <Label layoutX="124.0" layoutY="41.0" prefHeight="27.0" prefWidth="112.0" text="Goodness!">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="9.0" layoutY="461.0" prefHeight="168.0" prefWidth="279.0" styleClass="gray-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <Label layoutX="14.0" layoutY="32.0" text="Subtotal">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="66.0" text="Tax">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="120.0" text="Total">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Line endX="161.0" layoutX="108.0" layoutY="98.0" startX="-100.0" />
+                        <Label layoutX="200.0" layoutY="66.0" text="₱22.00">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="200.0" layoutY="32.0" text="₱650.00">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="204.0" layoutY="124.0" text="₱772.00">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="37.0" layoutY="651.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="245.0" styleClass="buy-btn" stylesheets="@markDesign.css" text="Print  Reciept" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="110.0" layoutY="94.0" prefHeight="38.0" prefWidth="159.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg2" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="52.0" layoutY="11.0" text="Signature">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/favorites.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <TextField layoutX="674.0" layoutY="23.0" prefHeight="27.0" prefWidth="168.0" promptText="Search Products" styleClass="search" stylesheets="@markDesign.css" />
+            <FontAwesomeIconView glyphName="SEARCH" layoutX="680.0" layoutY="42.0" size="1.5em" />
+            <AnchorPane layoutX="123.0" layoutY="195.0" prefHeight="236.0" prefWidth="200.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="21.0" layoutY="131.0" text="Sweet Granulated ">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="195.0" text="₱200.00" textFill="#ff9a3b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="76.0" layoutY="197.0" text="/3pc" />
+                  <AnchorPane layoutX="16.0" prefHeight="127.0" prefWidth="168.0" styleClass="white-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="168.0" layoutX="1.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/343727163_1199380274794308_6383314677765383102_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="21.0" layoutY="155.0" text="Sugar Croissant">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="154.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="377.0" layoutY="195.0" prefHeight="236.0" prefWidth="200.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="30.0" layoutY="123.0" text="Smoke Tenderloin ">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="195.0" text="₱300.00" textFill="#ff9a3b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="76.0" layoutY="197.0" text="/3pc" />
+                  <AnchorPane layoutX="16.0" prefHeight="127.0" prefWidth="168.0" styleClass="white-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <ImageView fitHeight="144.0" fitWidth="88.0" layoutX="40.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+                           <image>
+                              <Image url="@Images/343727741_979444383401981_6233619041977710359_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="28.0" layoutY="150.0" text="Slice Croissant">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="151.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="629.0" layoutY="195.0" prefHeight="236.0" prefWidth="200.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="11.0" layoutY="143.0" prefHeight="27.0" prefWidth="181.0" text="Almond Brown ">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="195.0" text="₱150.00" textFill="#ff9a3b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="76.0" layoutY="197.0" text="/3pc" />
+                  <AnchorPane layoutX="16.0" prefHeight="127.0" prefWidth="168.0" styleClass="white-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="137.0" layoutX="23.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/351097128_1645398305887768_6255207392029918102_n.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="150.0" layoutY="6.0" />
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="11.0" layoutY="167.0" prefHeight="27.0" prefWidth="181.0" text="Sugar Croissant">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="155.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="124.0" layoutY="443.0" prefHeight="236.0" prefWidth="200.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="20.0" layoutY="131.0" text="Sweet Chocolate">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="195.0" text="₱250.00" textFill="#ff9a3b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="76.0" layoutY="197.0" text="/3pc" />
+                  <AnchorPane layoutX="16.0" prefHeight="127.0" prefWidth="168.0" styleClass="white-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="168.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/351472123_228571073309079_421891493704720799_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="26.0" layoutY="161.0" text="Croissant">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="159.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="378.0" layoutY="443.0" prefHeight="236.0" prefWidth="200.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="20.0" layoutY="136.0" text="Berry Whipped">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="195.0" text="₱300.00" textFill="#ff9a3b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="76.0" layoutY="197.0" text="/3pc" />
+                  <AnchorPane layoutX="16.0" prefHeight="127.0" prefWidth="168.0" styleClass="white-bg" stylesheets="@markDesign.css">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="168.0" layoutX="-1.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/351679194_190863630207856_898116513197741263_n.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="20.0" layoutY="163.0" text=" Cream Croissant">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="154.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="283.0" layoutY="94.0" prefHeight="38.0" prefWidth="159.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg2" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="52.0" layoutY="11.0" text="Criossant">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/bread%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="451.0" layoutY="94.0" prefHeight="38.0" prefWidth="112.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg2" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="52.0" layoutY="11.0" text="Waffle">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/waffle.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="570.0" layoutY="94.0" prefHeight="38.0" prefWidth="112.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg2" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="52.0" layoutY="11.0" text="Coffe">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/coffee.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="688.0" layoutY="94.0" prefHeight="38.0" prefWidth="137.0" stylesheets="@markDesign.css">
+               <styleClass>
+                  <String fx:value="white-bg2" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="52.0" layoutY="11.0" text="Ice Cream">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/ice-cream.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

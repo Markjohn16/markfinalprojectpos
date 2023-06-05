@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2023, 2:06:10 AM
+    Author     : user
+*/
+
+
+
+.nav-form{
+     -fx-background-color:linear-gradient(to bottom right, #05ccff, #0598ff); 
+
+}
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+    -fx-font-size:14px;
+    -fx-alignment:CENTER;
+}
+.nav-btn:hover{
+      -fx-background-color: #ff8f44;
+}
+.logout{
+    -fx-background-color:#0598ff;
+    -fx-background-radius:10px;
+    -fx-cursor:hand;
+}
+.logout:hover{
+    -fx-background-color:#7febfc;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4), 5,0,0,0,0);
+}
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius:8px;
+}
+.white-bg2{
+    -fx-background-color:#fff;
+    -fx-text-fill: #0598ff;
+    -fx-background-radius:8px;
+}
+.white-bg2:hover{
+    -fx-background-color:#ff8f44;
+    -fx-cursor:hand;
+}
+.gray-bg{
+    -fx-background-color:#cdcdcd;
+    -fx-background-radius:8px;
+}
+
+
+
+.add-btn{
+    -fx-background-color:#243e6b;
+    -fx-background-radius:8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+}
+
+.search{
+    -fx-background-color:#cdcdcd;
+    -fx-font-size:14px;
+    -fx-font-family:"Tahoma";
+    -fx-border-radius: 8px;
+    -fx-border-width:1px;
+    -fx-padding:0px 0px 0px 28px;
+    -fx-border-radius:5px;
+}
+.search:focused{
+    -fx-border-width:2px;
+}
+.table-view{
+    -fx-background-color:transparent;
+    -fx-padding:0px;
+    -fx-border-color:linear-gradient(to bottom right, #05ccff, #0598ff);
+    -fx-border-radius:8px;
+    -fx-border-width:2px;
+}
+
+.buy-btn{
+    -fx-background-color:#ff8f44;
+    -fx-background-radius:8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial"; 
+}
+.buy-btn:hover{
+    -fx-background-color:ff4525;
+
+}
